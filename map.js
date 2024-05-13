@@ -29,3 +29,13 @@ console.log(CapitalStudents);
 function uppercase(element){
     return element.toUpperCase();
 }
+
+//example 4
+
+const Dates = ['2024-1-10', '2025-2-20', '2026-3-30'];
+const FormattedDates = Dates.map(formatDates);
+console.log(FormattedDates)
+function formatDates(element){
+    const part = element.split('-');
+    return `${part[2]}/${part[0]}/${part[1]}`
+}
