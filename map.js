@@ -9,3 +9,13 @@ console.log(squares);
 function square(element) {
     return Math.pow(element, 2);
 }
+
+// EXAMPLE 2
+const cubes = Numbers.map(cube);
+
+console.log(cubes);
+
+
+function cube(element) {
+    return Math.pow(element, 3);
+}
