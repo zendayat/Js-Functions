@@ -19,3 +19,13 @@ console.log(cubes);
 function cube(element) {
     return Math.pow(element, 3);
 }
+
+//EXAMPLE 3
+
+const Students = ["spongebob", "patrick", "squidward", "sandy"];
+const CapitalStudents = Students.map(uppercase);
+
+console.log(CapitalStudents);
+function uppercase(element){
+    return element.toUpperCase();
+}
